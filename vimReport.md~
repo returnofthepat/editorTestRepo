@@ -1,0 +1,11 @@
+https://www.freecodecamp.org/news/vim-beginners-guide/ 
+
+Tools:
+Use of redo/undo were quite helpful but not astonishing 
+Deleting large chunks of code was difficult to do. I tried entering visual mode and selecting the chunk of code, then pressing d to delete it but instead left visual mode. After trying different variations of this attempt I chose to just manually press d to delta the chunk line by line. Relatively easy to understand, the mode function is a bit odd but for making sure that files are saved and closed properly this seems to be more helpful. However when actually coding in the editors I found this to slow me down significantly. Switching between modes isn't second nature and the mode you’re currently in is only displayed at the bottom of the file. 
+Saving and exiting the editor is slightly obscure from what I’m used to as well. I need to make sure I'm in the command mode, then save(:w), then exit(:q); this isn't terrible, just peculiar. 
+Retrieving my file after stopping work proved to be aggravating. 
+Productivity curve:
+
+I didn’t notice myself transitioning into a good work flow while working in this editor, the mode function often interrupted it shortly after entering a flow or right before the cusp of entering it. Although the compiling of VIM makes sense I think it’s odd, I believe it's beneficial since you can look at your code/edit it while compiling, but opening a terminal to compile your code still feels incorrect and I don't see it progressing to second nature in the near future. 
+

@@ -1,2 +1,4 @@
-# editorTestRepo
-This repo at the time of creation contains old versions of my editor assesments.
+#Documentation for text editors
+
+I have in here docs on comparing editros and on how to install simple
+web systems.
