@@ -45,7 +45,8 @@ begining and what they really need to know -->
 	C-x 3: split window veritcally
 	C-x 1: close all other windows
 	C-x 0: close the current window
-	
+<!-- the shortcut above is useful for more screen real estate -->
+
 ### Files
 
 	C-x C-f: open a file
@@ -118,12 +119,15 @@ begining and what they really need to know -->
 	
 ## GDB
 
-	compile by typing gcc file-name.c -o file-name. Debug pressing M-x then typing gdb. And would you look at that it
-	has compiled. One of my favorite parts of emacs is how simplistic it
-	is to compile using gdb.
+<!-- reword section on emacs & gdb from emacsVim.md file then paste in -->
+
+	compile by typing gcc file-name.c -o file-name. Debug pressing M-x
+	then typing gdb. And would you look at that it has compiled. One
+	of my favorite parts of emacs is how simplistic it is to compile
+	using gdb.
 
 ## Conclusion
 
-	Emacs is quite a powerful editor to use and debug in. I would recommend
-	this to beginners who are intuitive and have some time to spend
-	working inside the editor.
+	Emacs is quite a powerful editor to use and debug in. I would
+	recommend this to beginners who are intuitive and have some time
+	to spend working inside the editor.
