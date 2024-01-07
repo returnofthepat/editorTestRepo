@@ -4,9 +4,9 @@ this [website][https://www.freecodecamp.org/news/vim-beginners-guide/]
 
 ## Quick install guide for linux 
 	
-	Open a new terminal window. type apt update, then type sudo apt
-	install vim.  Then launch vim from either the terminal or launch
-	the installed application itself.
+	Open a new terminal window. type sudo apt update, then type sudo 
+	apt install vim.  Then launch vim from either the terminal or
+	launch the installed application itself.
 
 ## Basic Keybindings
 
@@ -101,8 +101,9 @@ this [website][https://www.freecodecamp.org/news/vim-beginners-guide/]
 	more features and should be used for proper editing/debugging. I
 	believe that before a begginner commits to using Vim they should
 	give Vi a quick try so they can get a taste of what Vim feels like
-	to edit in.
+	to edit in. 
 
+	
 ## GDB
 <!-- reword section on vim & gdb from gdbVim.md file then paste in -->
 	To start debugging press ":", then type "!", then input your command;
@@ -111,5 +112,6 @@ this [website][https://www.freecodecamp.org/news/vim-beginners-guide/]
 ## Conlusion
 
 	I believe that Vim is quite a powerful and helpful editor despite it's
-	quirks.
+	quirks. I think it could be potentially useful to explore plug-ins for 
+	vim similar to neoVim
 

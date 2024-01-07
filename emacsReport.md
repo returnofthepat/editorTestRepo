@@ -2,6 +2,13 @@
 
 <!-- Revise and simplify this section, think of users that are just
 begining and what they really need to know -->
+
+## install guide 
+
+	sudo apt update 
+	sudo apt install emacs 
+	emacs --version
+	
 ## Basic keybinding guide 
 
 	ctrl will be refrenced as "C" alt will be referenced as "M" emacs has a
@@ -25,7 +32,7 @@ begining and what they really need to know -->
 
 	C-d: Delete the char after the cursor 
 	C-k; Kill(cut) the cursor to the end of the line 
-	C-y: Yank(past) the last killed text
+	C-y: Yank(paste) the last killed text
 	M-d: Kill the next word
 	M-DELETE: Kill the previous word
 	C-SPACE: Set the mark for text selection 
@@ -65,46 +72,46 @@ begining and what they really need to know -->
 	
 ## 	Initial look:
 
-	    Replace/Find Feature works very well/is quite intuitive.  You can
-		search the web from inside the editor which is neat but I dont see
-		the appeal of this, as reading information on a deciated web
-		browser looks better and is second nature to interact with. The
-		main issues I ran into was working with the buffers and compiling
-		the code. I think after a while I could get used to working with
-		buffers and even becoming proficent in my knowledge of their
-		use. Additionally the compiling wasn't entirely straight foraward,
-		but once I was using gdb to attempt to debug, compiling became
-		easier(but still not completly intuitive).
+    Replace/Find Feature works very well/is quite intuitive.  You can
+	search the web from inside the editor which is neat but I dont see
+	the appeal of this, as reading information on a deciated web
+	browser looks better and is second nature to interact with. The
+	main issues I ran into was working with the buffers and compiling
+	the code. I think after a while I could get used to working with
+	buffers and even becoming proficent in my knowledge of their
+	use. Additionally the compiling wasn't entirely straight foraward,
+	but once I was using gdb to attempt to debug, compiling became
+	easier(but still not completly intuitive).
 
 ## productivity curve:
 
-         Switching between the keys you use in your day to day
-         work/schoolwork tends to be a odd learning
-         experience. Initially I had a notion that emacs would be
-         quite difficult to code in for extened periods of time, this
-         origniated from jumping straight in without going through the
-         built in guide. I would highly suggest going throught the
-         guide even if it seems boring. After going back and going
-         through the guide I found that jumping into coding I was able
-         to sink into a nice flow of interacting with the editor,
-         being able to use the tools natively was essential to finding
-         this flow. After coding a few programs in emacs I belive that
-         it is a fantastic code editor, however there are still some
-         gaps in my knowledge while using emacs that cause a slowed
-         productivity curve while using the editor, I think over time
-         this would no longer be the case. The key to intuitivly
-         coding is to repeat steps over and over again; but this
-         doesn't mean repeat useless and mundane tasks. Instead find a
-         task or game that you find fun to learn to gain this
-         intution. One of my favorites is Hanoi, which you can play in
-         emacs by typing M-x then typing hanoi. Also you can play
-         tetris, snake, and even more games(although there is no
-         lesson to learn in these pertaining to emacs keybindings). If
-         you want to practice in a way that requires less reading
-         shrotcutfoo has an emacs section to practice.  Most of all
-         never forget to type C-X & C-S every so often so you dont
-         loose information written in the file. This editor has become 
-		 my favorite to use out of all true text editors I've used. 
+    Switching between the keys you use in your day to day
+    work/schoolwork tends to be a odd learning
+	experience. Initially I had a notion that emacs would be
+    quite difficult to code in for extened periods of time, this
+    origniated from jumping straight in without going through the
+	built in guide. I would highly suggest going throught 
+	guide even if it seems boring. After going back and going
+    through the guide I found that jumping into coding I was able
+    to sink into a nice flow of interacting with the 
+	being able to use the tools natively was essential to finding
+    this flow. After coding a few programs in emacs I belive that
+    it is a fantastic code editor, however there are still some
+    gaps in my knowledge while using emacs that cause a slowed
+    productivity curve while using the editor, I think over time
+    this would no longer be the case. The key to intuitivly
+    coding is to repeat steps over and over again; but this
+    doesn't mean repeat useless and mundane tasks. Instead find a
+    task or game that you find fun to learn to gain this
+    intution. One of my favorites is Hanoi, which you can play in
+    emacs by typing M-x then typing hanoi. Also you can play
+    tetris, snake, and even more games(although there is no
+    lesson to learn in these pertaining to emacs keybindings). If
+    you want to practice in a way that requires less reading
+    shrotcutfoo has an emacs section to practice.  Most of all
+    never forget to type C-X & C-S every so often so you dont
+    loose information written in the file. This editor has become 
+	my favorite to use out of all true text editors I've used. 
 		 
 
 
@@ -121,13 +128,16 @@ begining and what they really need to know -->
 
 <!-- reword section on emacs & gdb from emacsVim.md file then paste in -->
 
-	compile by typing gcc file-name.c -o file-name. Debug pressing M-x
+	Compile by typing "gcc file-name.c -o file-name". Debug pressing M-x
 	then typing gdb. And would you look at that it has compiled. One
 	of my favorite parts of emacs is how simplistic it is to compile
-	using gdb.
+	using gdb. Debugging was quite easy and I didnt run into any note
+	worthly bumps.(which speaks for itself)
 
 ## Conclusion
 
 	Emacs is quite a powerful editor to use and debug in. I would
-	recommend this to beginners who are intuitive and have some time
-	to spend working inside the editor.
+	recommend this editor the most as it's out of the box power
+	is unrivaled. The ease of use could be best compared to using 
+	a text editor such as google docs, which for me was huge plus
+	but do with that information as you will.
